@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script type="text/javascript" src="bower_components/seajs/dist/sea.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    seajs.config({
+      paths: {
+        'xtemplate': '../xtemplate/'
+      }
+    })
+    seajs.use('../seajs/index', function (index) {
+      console.log(index);
+    })
+  </script>
+</body>
+</html>
